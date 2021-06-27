@@ -24,7 +24,7 @@ out 1
 # isnot value1 value2 - executes next line only if value1 is NOT equal to value2
 # while value1 value2 - while value1 is equal to value2 do the next line
 # whilenot value1 value2 - while value1 is NOT equal to value2 execute the next line
-# out value - output value (no space or newline)
+# out value - output value
 # turtle value - goto line number value (count from 0)
 # add value1 value2 $egg - adds value1 to value2 and saves into $egg
 # sub value1 value2 $egg - subtracts value2 from value1 and saves into $egg
