@@ -1,0 +1,11 @@
+set $0 99
+whilenot $0 0
+turtle 4
+free
+out $0
+out " bottles of beer on the wall\n
+out $0
+out " bottles of beer\ntake one down\npass it around\n
+sub $0 1 $0
+out $0
+out " bottles of beer on the wall\n

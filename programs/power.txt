@@ -1,0 +1,12 @@
+whilenot $c 3
+out "
+set $0 1
+set $1 n
+set $2 n
+whilenot $2 0
+turtle 9
+out $0
+free
+mult $1 $0 $0
+sub $2 1 $2
+`takes 2 numbers and raises the first one to the power of the second

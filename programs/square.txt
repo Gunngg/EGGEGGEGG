@@ -1,0 +1,22 @@
+whilenot $c 5
+out "
+set $0 i `char - doesnt change
+set $1 "`output
+set $2 n `size of the square - doesnt change
+set $3 $2 `column
+set $4 $3 `rows
+
+whilenot $4 0
+turtle 12
+out $1
+free
+whilenot $3 0
+turtle 20 `IDK1
+sub $4 1 $4
+conc $1 "\n $1
+set $3 $2
+free
+
+`IDK1
+conc $1 $0 $1
+sub $3 1 $3
