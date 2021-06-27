@@ -1,4 +1,2 @@
 whilenot $c 0
-turtle 2
-set $0 i
-out $0
+out i
