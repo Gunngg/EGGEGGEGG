@@ -194,17 +194,8 @@ def eee(abc,ln=0):
 		# ---- MATH ----
 		# add
 		elif isp[0] == 'add':
-			op1 = 'none' #op1 = operation1
-			op2 = 'none'
-			if isp[1] == 'n':
-				op1 = toval('n')
-			if isp[2] == 'n':
-				op2 = toval('n')
-
-			if op1 == 'none':
-				op1 = toval(isp[1])
-			if op2 == 'none':
-				op2 = toval(isp[2])
+			op1 = toval(isp[1]) #op1 = operation1
+			op2 = toval(isp[2])
 
 			if type(op1) == int and type(op2) == int:
 				if isp[3][0] == '$':
@@ -214,17 +205,8 @@ def eee(abc,ln=0):
 				break
 		# sub
 		elif isp[0] == 'sub':
-			op1 = 'none'
-			op2 = 'none'
-			if isp[1] == 'n':
-				op1 = toval('n')
-			if isp[2] == 'n':
-				op2 = toval('n')
-
-			if op1 == 'none':
-				op1 = toval(isp[1])
-			if op2 == 'none':
-				op2 = toval(isp[2])
+			op1 = toval(isp[1])
+			op2 = toval(isp[2])
 
 			if type(op1) == int and type(op2) == int:
 				if isp[3][0] == '$':
@@ -234,17 +216,8 @@ def eee(abc,ln=0):
 				break
 		# mult
 		elif isp[0] == 'mult':
-			op1 = 'none'
-			op2 = 'none'
-			if isp[1] == 'n':
-				op1 = toval('n')
-			if isp[2] == 'n':
-				op2 = toval('n')
-
-			if op1 == 'none':
-				op1 = toval(isp[1])
-			if op2 == 'none':
-				op2 = toval(isp[2])
+			op1 = toval(isp[1])
+			op2 = toval(isp[2])
 
 			if type(op1) == int and type(op2) == int:
 				if isp[3][0] == '$':
@@ -254,17 +227,8 @@ def eee(abc,ln=0):
 				break
 		# div
 		elif isp[0] == 'div':
-			op1 = 'none'
-			op2 = 'none'
-			if isp[1] == 'n':
-				op1 = toval('n')
-			if isp[2] == 'n':
-				op2 = toval('n')
-
-			if op1 == 'none':
-				op1 = toval(isp[1])
-			if op2 == 'none':
-				op2 = toval(isp[2])
+			op1 = toval(isp[1])
+			op2 = toval(isp[2])
 
 			if type(op1) == int and type(op2) == int:
 				if isp[3][0] == '$':
@@ -275,17 +239,8 @@ def eee(abc,ln=0):
 		
 		# conc
 		elif isp[0] == 'conc':
-			op1 = 'none'
-			op2 = 'none'
-			if isp[1] == 'i':
-				op1 = toval('i')
-			if isp[2] == 'i':
-				op2 = toval('i')
-
-			if op1 == 'none':
-				op1 = toval(isp[1])
-			if op2 == 'none':
-				op2 = toval(isp[2])
+			op1 = toval(isp[1])
+			op2 = toval(isp[2])
 
 			if type(op1) == str and type(op2) == str:
 				if isp[3][0] == '$':
